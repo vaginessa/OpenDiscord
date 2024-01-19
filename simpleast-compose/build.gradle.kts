@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.xinto.simpleast"
-    compileSdk = 32
+    compileSdk = 34
 
     defaultConfig {
         minSdk = 26
