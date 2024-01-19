@@ -14,7 +14,7 @@ android {
     defaultConfig {
         applicationId = "com.xinto.opencord"
         namespace = "com.xinto.opencord"
-        minSdk = 21
+        minSdk = 26
         targetSdk = 33
         versionCode = 1
         versionName = "0.0.1"
