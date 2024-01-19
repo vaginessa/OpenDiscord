@@ -5,7 +5,7 @@ updates:
     schedule:
       interval: daily
     target-branch: "master"
-    open-pull-requests-limit: 20
+    open-pull-requests-limit: 40
 
   - package-ecosystem: github-actions
     directory: "/"
