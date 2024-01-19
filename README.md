@@ -11,7 +11,7 @@
   </a>
   <br/>
   <p align="center">
-    An open-source Material You implementation of the Discord Android app.
+    An open-source Material You implementation of the Discord Android app. (Android 8+)
   </p>
 </p>
 
