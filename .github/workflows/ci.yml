@@ -28,7 +28,7 @@ jobs:
           cache: 'gradle'
 
       - name: Build OpenCord
-        run: ./gradlew app:assembleDebug
+        run: ./gradlew app:assembleDebug --warning-mode all
 
       - name: Upload Discord APK
         uses: actions/upload-artifact@v4
