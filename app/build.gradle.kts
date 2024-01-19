@@ -9,13 +9,13 @@ plugins {
 }
 
 android {
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.xinto.opencord"
         namespace = "com.xinto.opencord"
         minSdk = 26
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "0.0.1"
 
@@ -135,7 +135,7 @@ java {
 dependencies {
     implementation(project(":simpleast-compose"))
 
-    // Use java.time.* on Android <= 8
+    // Use java.time.* on Android <= 8   Delete?
     // https://developer.android.com/studio/write/java8-support#library-desugaring-versions
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
 
