@@ -1,21 +1,17 @@
 <h1 align="center">OpenCord</h1>
 <p align="center">
-  <a href="https://discord.gg/3y6vbneMsW">
-    <img alt="Discord" src="https://img.shields.io/discord/885879572447522817.svg?label=OpenCord&logo=discord&style=for-the-badge&logoColor=FFFFFF">
+  <a href="https://github.com/topminipie/OpenCord/stargazers">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/topminipie/OpenCord?logo=github&style=for-the-badge">
   </a>
-</p>
-<p align="center">
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/MateriiApps/OpenCord?logo=github&style=for-the-badge">
-  <img alt="GitHub forks" src="https://img.shields.io/github/forks/MateriiApps/OpenCord?logo=github&style=for-the-badge">
-  <a href="https://github.com/MateriiApps/OpenCord/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/MateriiApps/OpenCord?color=%23007ec6&style=for-the-badge">
+  <a href="https://github.com/topminipie/OpenCord/forks">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/topminipie/OpenCord?logo=github&style=for-the-badge">
   </a>
-  <a href="https://crowdin.com/project/opencord">
-    <img alt="Crowdin" src="https://badges.crowdin.net/opencord/localized.svg">
+  <a href="https://github.com/topminipie/OpenCord/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/topminipie/OpenCord?color=%23007ec6&style=for-the-badge">
   </a>
   <br/>
   <p align="center">
-    An open-source Material You implementation of the Discord Android app. (WIP)
+    An open-source Material You implementation of the Discord Android app.
   </p>
 </p>
 
@@ -41,24 +37,17 @@ clients. What they do automatically ban for, is API abuse or strange requests. T
 takes great caution in emulating official clients exactly, but as it is still in development, please
 ***use an alt account for your safety.***
 
-### Where download???!?!?!?!?
-
-Since there is no release version yet, use
-this [nightly link](https://nightly.link/materiiapps/opencord/workflows/android/master/opencord.zip)
-to download OpenCord. Download, extract and install the APK contained within. If you are
-reinstalling or updating, you have to uninstall the old version first!
-
-## Building locally
+## Build Debug Release
 
 Windows:
 
-```batch
+```
 .\gradlew.bat app:assembleDebug
 ```
 
 Linux/macOS:
 
-```shell
+```
 ./gradlew app:assembleDebug
 ```
 
