@@ -137,7 +137,7 @@ dependencies {
 
     // Use java.time.* on Android <= 8
     // https://developer.android.com/studio/write/java8-support#library-desugaring-versions
-    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.3")
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
 
     implementation(libs.bundles.androidx.core)
     implementation(libs.bundles.androidx.compose)
