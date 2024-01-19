@@ -13,6 +13,10 @@ allprojects {
         mavenCentral()
         maven("https://jitpack.io")
     }
+
+    tasks.withType<JavaCompile> {
+        options.compilerArgs.add("-Xlint:all")
+    }
 }
 
 task<Delete>("clean") {
