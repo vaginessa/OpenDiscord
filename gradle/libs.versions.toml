@@ -42,7 +42,7 @@ materii-partial = { group = "io.github.materiiapps", name = "partial", version.r
 materii-partial-ksp = { group = "io.github.materiiapps", name = "partial-ksp", version.ref = "materii-partial" }
 materii-enumutil = { group = "io.github.materiiapps", name = "enumutil", version.ref = "materii-enumutil" }
 materii-enumutil-ksp = { group = "io.github.materiiapps", name = "enumutil-ksp", version.ref = "materii-enumutil" }
-navreimagined = { group = "dev.olshevski.navigation", name = "reimagined", version = "1.3.1" }
+navreimagined = { group = "dev.olshevski.navigation", name = "reimagined", version = "1.5.0" }
 kotlinx-datetime = { group = "org.jetbrains.kotlinx", name = "kotlinx-datetime", version = "0.5.0" }
 kotlinx-serialization = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-core", version = "1.6.2" }
 kotlinx-immutable-collections = { group = "org.jetbrains.kotlinx", name = "kotlinx-collections-immutable", version = "0.3.7" }

@@ -1,7 +1,7 @@
 package com.xinto.opencord.ui.screens.mentions
 
 import androidx.compose.animation.AnimatedContent
-import androidx.compose.animation.AnimatedContentScope
+import androidx.compose.animation.AnimatedContentTransitionScope
 import androidx.compose.animation.with
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -163,7 +163,7 @@ fun MentionsScreen(
                         AnimatedContent(
                             targetState = serverName,
                             transitionSpec = {
-                                slideIntoContainer(AnimatedContentScope.SlideDirection.Up) with slideOutOfContainer(AnimatedContentScope.SlideDirection.Up)
+                                slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Up) with slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Up)
                             },
                         ) {
                             Text(

@@ -1,7 +1,7 @@
 package com.xinto.opencord.ui.components.indicator
 
 import androidx.compose.animation.AnimatedContent
-import androidx.compose.animation.AnimatedContentScope
+import androidx.compose.animation.AnimatedContentTransitionScope
 import androidx.compose.animation.with
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -49,9 +49,9 @@ fun MentionCountBadge(
             targetState = countDisplay,
             transitionSpec = {
                 val direction = if (targetState > initialState) {
-                    AnimatedContentScope.SlideDirection.Up
+                    AnimatedContentTransitionScope.SlideDirection.Up
                 } else {
-                    AnimatedContentScope.SlideDirection.Down
+                    AnimatedContentTransitionScope.SlideDirection.Down
                 }
 
                 slideIntoContainer(direction) with slideOutOfContainer(direction)
