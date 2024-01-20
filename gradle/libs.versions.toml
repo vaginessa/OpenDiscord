@@ -1,6 +1,6 @@
 [versions]
 ktor = "2.3.7"
-room = "2.5.1"
+room = "2.6.1"
 compose = "1.5.4"
 compose-compiler = "1.5.8"
 accompanist = "0.32.0"
