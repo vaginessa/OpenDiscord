@@ -32,7 +32,7 @@ androidx-media3-ui = { group = "androidx.media3", name = "media3-ui", version.re
 accompanist-systemui = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "accompanist" }
 accompanist-placeholder = { group = "com.google.accompanist", name = "accompanist-placeholder", version.ref = "accompanist" }
 accompanist-webview = { group = "com.google.accompanist", name = "accompanist-webview", version.ref = "accompanist" }
-shimmer = { group = "com.valentinilk.shimmer", name = "compose-shimmer", version = "1.0.3" }
+shimmer = { group = "com.valentinilk.shimmer", name = "compose-shimmer", version = "1.2.0" }
 coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
 coil-gif = { group = "io.coil-kt", name = "coil-gif", version.ref = "coil" }
 koin-compose = { group = "io.insert-koin", name = "koin-androidx-compose", version = "3.5.3" }
