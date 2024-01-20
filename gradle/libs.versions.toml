@@ -21,6 +21,7 @@ androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = 
 androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
 androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
 androidx-compose-activity = { group = "androidx.activity", name = "activity-compose", version = "1.6.1" }
+androidx-compose-animation = { group = "androidx.compose.animation", name = "animation", version = "1.5.4" }
 androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "compose" }
 androidx-compose-material = { group = "androidx.compose.material", name = "material", version.ref = "compose" }
 androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3", version = "1.1.2" }
@@ -56,7 +57,7 @@ ktor-serialization-json = { group = "io.ktor", name = "ktor-serialization-kotlin
 [bundles]
 androidx-core = ["androidx-core", "androidx-core-splashscreen", "androidx-preferences"]
 androidx-room = ["androidx-room-ktx", "androidx-room-runtime"]
-androidx-compose = ["androidx-compose-activity", "androidx-compose-foundation", "androidx-compose-material", "androidx-compose-material3"]
+androidx-compose = ["androidx-compose-activity", "androidx-compose-animation", "androidx-compose-foundation", "androidx-compose-material", "androidx-compose-material3"]
 androidx-paging = ["androidx-paging-runtime", "androidx-paging-compose"]
 androidx-media3 = ["androidx-media3-exo", "androidx-media3-exo-dash", "androidx-media3-ui"]
 accompanist = ["accompanist-systemui", "accompanist-placeholder", "accompanist-webview"]
