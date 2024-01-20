@@ -25,11 +25,7 @@ android {
         buildConfigField("String", "URL_API", "\"https://discord.com/api/v9\"")
         buildConfigField("String", "URL_CDN", "\"https://cdn.discordapp.com\"")
         buildConfigField("String", "CAPTCHA_KEY", "\"f5561ba9-8f1e-40ca-9b5b-a0b3f719ef34\"")
-        buildConfigField(
-            "String",
-            "URL_GATEWAY",
-            "\"wss://gateway.discord.gg/?encoding=json&v=9&compress=zlib-stream\"",
-        )
+        buildConfigField("String", "URL_GATEWAY", "\"wss://gateway.discord.gg/?encoding=json&v=9&compress=zlib-stream\"")
 
         val languages = project.projectDir.resolve("src/main/res")
             .listFiles { f -> f.isDirectory }
