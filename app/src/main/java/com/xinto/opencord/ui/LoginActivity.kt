@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
-import androidx.compose.animation.AnimatedContentScope
+import androidx.compose.animation.AnimatedContentTransitionScope
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.with
@@ -62,19 +62,19 @@ class LoginActivity : AppCompatActivity() {
                             when {
                                 from == LoginDestination.Landing && to == LoginDestination.Login -> {
                                     slideIntoContainer(
-                                        towards = AnimatedContentScope.SlideDirection.Start,
+                                        towards = AnimatedContentTransitionScope.SlideDirection.Start,
                                         initialOffset = { it },
                                     ) with fadeOut() + slideOutOfContainer(
-                                        towards = AnimatedContentScope.SlideDirection.Start,
+                                        towards = AnimatedContentTransitionScope.SlideDirection.Start,
                                         targetOffset = { it / 3 },
                                     )
                                 }
                                 from == LoginDestination.Login && to == LoginDestination.Landing -> {
                                     fadeIn() + slideIntoContainer(
-                                        towards = AnimatedContentScope.SlideDirection.End,
+                                        towards = AnimatedContentTransitionScope.SlideDirection.End,
                                         initialOffset = { it / 3 },
                                     ) with slideOutOfContainer(
-                                        towards = AnimatedContentScope.SlideDirection.End,
+                                        towards = AnimatedContentTransitionScope.SlideDirection.End,
                                         targetOffset = { it },
                                     )
                                 }
