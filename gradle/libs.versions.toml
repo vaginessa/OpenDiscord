@@ -9,7 +9,7 @@ androidx-media3 = "1.2.1"
 materii-panels = "1.0.1"
 materii-partial = "1.2.0"
 materii-enumutil = "1.0.0"
-agp = "8.2.1"
+agp = "8.2.2"
 kotlin = "1.9.22"
 ksp = "1.9.22-1.0.17"
 
