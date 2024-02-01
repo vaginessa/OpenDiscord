@@ -1,5 +1,5 @@
 [versions]
-ktor = "2.3.7"
+ktor = "2.3.8"
 room = "2.6.1"
 compose = "1.6.0"
 compose-compiler = "1.5.8"
