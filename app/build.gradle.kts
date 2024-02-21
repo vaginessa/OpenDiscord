@@ -135,7 +135,7 @@ dependencies {
     // https://developer.android.com/studio/write/java8-support#library-desugaring-versions
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
 
-    implementation("androidx.compose.animation:animation:1.6.1")
+    implementation("androidx.compose.animation:animation:1.6.2")
 
     implementation(libs.bundles.androidx.core)
     implementation(libs.bundles.androidx.compose)
