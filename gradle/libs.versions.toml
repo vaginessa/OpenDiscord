@@ -11,7 +11,7 @@ materii-partial = "1.2.0"
 materii-enumutil = "1.0.0"
 agp = "8.3.0"
 kotlin = "1.9.22"
-ksp = "1.9.22-1.0.17"
+ksp = "1.9.22-1.0.18"
 
 [libraries]
 androidx-core = { group = "androidx.core", name = "core-ktx", version = "1.12.0" }
