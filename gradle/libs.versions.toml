@@ -23,7 +23,7 @@ androidx-room-compiler = { group = "androidx.room", name = "room-compiler", vers
 androidx-compose-activity = { group = "androidx.activity", name = "activity-compose", version = "1.8.2" }
 androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "compose" }
 androidx-compose-material = { group = "androidx.compose.material", name = "material", version.ref = "compose" }
-androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3", version = "1.2.0" }
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3", version = "1.2.1" }
 androidx-paging-runtime = { group = "androidx.paging", name = "paging-runtime", version = "3.1.1" }
 androidx-paging-compose = { group = "androidx.paging", name = "paging-compose", version = "1.0.0-alpha18" }
 androidx-media3-exo = { group = "androidx.media3", name = "media3-exoplayer", version.ref = "androidx-media3" }
