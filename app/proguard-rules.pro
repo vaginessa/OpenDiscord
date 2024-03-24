@@ -64,3 +64,12 @@ com.xinto.opencord.gateway.io.EventName
 
 # Broaden access modifiers to increase results during optimization
 -allowaccessmodification
+
+# Please add these rules to your existing keep rules in order to suppress warnings.
+# This is generated automatically by the Android Gradle plugin.
+-dontwarn edu.umd.cs.findbugs.annotations.NonNull
+-dontwarn edu.umd.cs.findbugs.annotations.Nullable
+-dontwarn edu.umd.cs.findbugs.annotations.SuppressFBWarnings
+-dontwarn lombok.Generated
+-dontwarn lombok.NonNull
+-dontwarn org.slf4j.impl.StaticLoggerBinder
