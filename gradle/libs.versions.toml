@@ -1,7 +1,7 @@
 [versions]
 ktor = "2.3.9"
 room = "2.6.1"
-compose = "1.6.4"
+compose = "1.6.5"
 compose-compiler = "1.5.11"
 accompanist = "0.34.0"
 coil = "2.6.0"
